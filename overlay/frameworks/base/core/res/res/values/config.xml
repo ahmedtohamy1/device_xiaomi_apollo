@@ -380,4 +380,8 @@
         <item>880</item>
         <item>200</item>
     </array>
+
+    <!-- Does the device have a notification led -->
+    <bool name="config_hasNotificationLed">true</bool>
+
 </resources>
