@@ -388,4 +388,8 @@
          screenshot chord -->
     <integer name="config_screenshotChordKeyTimeout">0</integer>  
 
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+
 </resources>
