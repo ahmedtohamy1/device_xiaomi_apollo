@@ -504,18 +504,41 @@ vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
 
 # Thermal
+vendor/etc/thermal-4k.conf
+vendor/etc/thermal-8k.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-class0.conf
 vendor/etc/thermal-engine.conf
+vendor/etc/thermal-india-4k.conf
+vendor/etc/thermal-india-8k.conf
+vendor/etc/thermal-india-camera.conf
+vendor/etc/thermal-india-class0.conf
+vendor/etc/thermal-india-mgame.conf
+vendor/etc/thermal-india-normal.conf
+vendor/etc/thermal-india-per-camera.conf
+vendor/etc/thermal-india-per-class0.conf
+vendor/etc/thermal-india-per-normal.conf
+vendor/etc/thermal-india-per-video.conf
+vendor/etc/thermal-india-tgame.conf
+vendor/etc/thermal-india-video.conf
+vendor/etc/thermal-india-youtube.conf
+vendor/etc/thermal-map-india.conf
 vendor/etc/thermal-map.conf
+vendor/etc/thermal-mgame.conf
+vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-per-camera.conf
 vendor/etc/thermal-per-class0.conf
+vendor/etc/thermal-per-navigation.conf
 vendor/etc/thermal-per-normal.conf
+vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-phone.conf
+vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
+vendor/etc/thermal-video.conf
+vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 
 # Vibrator firmware
