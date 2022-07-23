@@ -27,3 +27,8 @@ ro.surface_flinger.set_idle_timer_ms=1000
 ro.surface_flinger.set_touch_timer_ms=100
 vendor.display.idle_time=1100
 debug.sf.frame_rate_multiple_threshold=144
+
+# HVDCP
+persist.vendor.cp.taper_term_mv=7000
+persist.vendor.cp.fcc_main_ua=400000
+persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
