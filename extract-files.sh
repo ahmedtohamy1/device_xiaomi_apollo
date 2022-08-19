@@ -20,6 +20,9 @@ EOF
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             "${SIGSCAN}" -p "9A 0A 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
+        vendor/lib64/camera/components/com.mi.node.watermark.so)
+            "${PATCHELF}" --add-needed "lib-watermarkshim.so" "${2}"
+            ;;
     esac
 }
 
