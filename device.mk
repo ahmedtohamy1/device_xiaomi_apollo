@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib-watermarkshim
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
