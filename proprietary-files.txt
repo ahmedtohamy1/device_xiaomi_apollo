@@ -93,6 +93,9 @@ vendor/lib64/camera/com.qti.sensor.apollo_s5k3t2.so
 vendor/lib64/camera/com.qti.sensor.apollo_s5k5e9yx04.so
 vendor/lib64/camera/com.qti.sensor.apollo_s5khmx.so
 vendor/lib64/camera/com.qti.sensor.imx563.so
+vendor/lib64/libmegface.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_ov13b10_ultra_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_s5k3t2_front.bin
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_s5k5e9yx04_macro.bin
