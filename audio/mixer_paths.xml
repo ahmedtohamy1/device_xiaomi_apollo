@@ -1981,10 +1981,6 @@
     </path>
 
     <path name="audio-record-compress2 bt-sco-wb">
-        <path name="audio-record-compress2 bt-sco" />
-    </path>
-
-    <path name="audio-record-compress2 bt-sco-wb">
         <ctl name="MultiMedia17 Mixer SLIM_7_TX" value="1" />
     </path>
 
