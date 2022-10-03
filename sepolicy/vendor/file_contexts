@@ -75,7 +75,7 @@
 /vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi              u:object_r:hal_lineage_touch_default_exec:s0
 
 # Ultrasound devices
-/dev/elliptic[0-9]+                                                                                 u:object_r:ultrasound_device:s0
+/dev/elliptic(.*)?                                                                                  u:object_r:ultrasound_device:s0
 /dev/mius(.*)?                                                                                      u:object_r:ultrasound_device:s0
 
 # Wakeup source stats
