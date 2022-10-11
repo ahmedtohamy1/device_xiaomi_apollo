@@ -17,6 +17,9 @@ persist.vendor.dpm.feature=1
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 # LMK properties
 ro.lmk.use_minfree_levels=true
 ro.lmk.kill_heaviest_task=true
