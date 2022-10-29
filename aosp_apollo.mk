@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022 VoidUI Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,13 +9,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common VoidUI stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# VoidUI Feature Flags
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_BOOT_ANIMATION_RES := 1440
+IS_PHONE := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP  := true
+
+# VoidUI Maintainer Flags
+VOID_MAINTAINER := Agmad
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
-PRODUCT_NAME := lineage_apollo
+PRODUCT_NAME := aosp_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
