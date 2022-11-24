@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     SettingsProviderM2007J3SG  \
     SettingsProviderM2007J3SY
 
+# QDCM
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/qdcm/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
