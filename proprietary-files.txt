@@ -55,6 +55,11 @@ vendor/firmware/spk2_voice_delta.txt
 
 # Audio-Hardware
 vendor/lib/hw/audio.primary.kona.so
+system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
+system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
+vendor/lib/libaudioconfigstore.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
