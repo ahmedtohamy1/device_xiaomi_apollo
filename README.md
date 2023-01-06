@@ -1,4 +1,4 @@
-#  Device Tree for Xiaomi Mi 10T/Mi 10T Pro (apollon)
+#  Device Tree for Xiaomi Mi 10T/Mi 10T Pro (apollo)
 
 ## Spec Sheet
 
