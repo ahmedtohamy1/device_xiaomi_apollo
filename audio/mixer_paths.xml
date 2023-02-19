@@ -369,6 +369,7 @@
     <ctl name="ADC2_MIXER Switch" value="0" />
     <ctl name="ADC3_MIXER Switch" value="0" />
     <ctl name="ADC4_MIXER Switch" value="1" />
+    <ctl name="ADC2 MUX" value="ZERO" />
     <ctl name="DEC0_BCS Switch" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC0" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC1" value="0" />
@@ -1978,6 +1979,10 @@
 
     <path name="audio-record-compress2 bt-sco">
         <ctl name="MultiMedia17 Mixer SLIM_7_TX" value="1" />
+    </path>
+
+    <path name="audio-record-compress2 bt-sco-wb">
+        <path name="audio-record-compress2 bt-sco" />
     </path>
 
     <path name="audio-record-compress2 bt-sco-wb">
@@ -3810,11 +3815,6 @@
 
     <path name="audio-ull-playback speaker-safe-and-bt-a2dp">
         <path name="audio-ull-playback bt-a2dp" />
-        <path name="audio-ull-playback" />
-    </path>
-
-    <path name="audio-ull-playback speaker-and-usb-headphones">
-        <path name="audio-ull-playback usb-headphones" />
         <path name="audio-ull-playback" />
     </path>
 
