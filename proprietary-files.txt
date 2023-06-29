@@ -54,15 +54,15 @@ vendor/firmware/spk2_playback_delta.txt
 vendor/firmware/spk2_voice_delta.txt
 
 # Audio-Hardware
-vendor/lib/hw/audio.primary.kona.so
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.kona.so
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
-vendor/lib/libaudioconfigstore.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
@@ -79,6 +79,7 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/lib64/camera/com.qti.actuator.apollo_dw9800.so
 vendor/lib64/camera/com.qti.eeprom.apollo_ofilm_ov13b10_gt24p64b.so
 vendor/lib64/camera/com.qti.eeprom.apollo_ofilm_s5k3t2_gt24p64.so
@@ -93,9 +94,6 @@ vendor/lib64/camera/com.qti.sensor.apollo_s5k3t2.so
 vendor/lib64/camera/com.qti.sensor.apollo_s5k5e9yx04.so
 vendor/lib64/camera/com.qti.sensor.apollo_s5khmx.so
 vendor/lib64/camera/com.qti.sensor.imx563.so
-vendor/lib64/libmegface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
-vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_ov13b10_ultra_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_s5k3t2_front.bin
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_s5k5e9yx04_macro.bin
@@ -136,6 +134,7 @@ vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/com.xiaomi.plugin.mibokeh.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libMIAIHDRhvx_interface.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
@@ -160,6 +159,7 @@ vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libipebpsstriping.so
+vendor/lib64/libmegface.so
 vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_ie_preview.so
 vendor/lib64/libmialgo_image_colourkeeping.so
@@ -399,9 +399,9 @@ vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 
 # Display calibration data
-vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 vendor/etc/ltm_config_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_j3s_37_02_0a_dsc_video_mi.xml
+vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
