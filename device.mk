@@ -29,6 +29,14 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Camera Extensions
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.camerax.extensions.enabled=true
+
+# Camera Extensions permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/camerax-vendor-extensions.xml
+
 # Screen density
 TARGET_SCREEN_DENSITY := 420
 

@@ -376,6 +376,9 @@ vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
 
+# Camera Extensions
+system/framework/camerax-vendor-extensions.jar
+
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/apollo_ois.coeff
