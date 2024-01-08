@@ -18,7 +18,7 @@
 <resources>
 
     <!-- The padding of the statusbar -->
-    <dimen name="status_bar_padding_start">0dp</dimen>
+    <dimen name="status_bar_padding_top">6dp</dimen>
     <dimen name="status_bar_padding_end">30px</dimen>
 
     <!-- Margin on the left side of the heads up notification -->
