@@ -124,10 +124,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
-    libMegviiFacepp-0.5.2 \
-    libmegface \
     libgui_vendor \
     libpiex_shim \
+    libshim_megvii \
     libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor

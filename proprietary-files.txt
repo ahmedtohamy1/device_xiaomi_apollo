@@ -233,7 +233,7 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/camera.qcom.so|e4ff56a8db583265c66cc29de0c207a862f1d570
 vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
@@ -467,6 +467,7 @@ vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/goturn_search_dsp.dlc
 vendor/etc/camera/goturn_target_dsp.dlc
 vendor/etc/camera/hdrd_ui9_params.config
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
 vendor/etc/camera/model.dat
