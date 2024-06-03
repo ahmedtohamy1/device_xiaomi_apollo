@@ -233,7 +233,7 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so|e4ff56a8db583265c66cc29de0c207a862f1d570
+vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
@@ -258,6 +258,7 @@ vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/com.xiaomi.plugin.mibokeh.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libMIAIHDRhvx_interface.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
@@ -282,6 +283,7 @@ vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libipebpsstriping.so
+vendor/lib64/libmegface.so
 vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_ie_preview.so
 vendor/lib64/libmialgo_image_colourkeeping.so
