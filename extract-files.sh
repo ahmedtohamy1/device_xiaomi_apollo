@@ -56,6 +56,9 @@ EOF
         vendor/etc/init/init.batterysecret.rc)
             sed -i "/seclabel u:r:batterysecret:s0/d" "${2}"
             ;;
+        vendor/etc/init/init_thermal-engine.rc)
+            sed -i '/^#service/,/^$/ s/^#//' "${2}"
+            ;;
     esac
 }
 
