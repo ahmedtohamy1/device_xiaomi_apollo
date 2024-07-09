@@ -45,4 +45,5 @@ vendor.sys.thermal.data.path=/data/vendor/thermal/
 persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Disable Skia tracing by default
-debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
