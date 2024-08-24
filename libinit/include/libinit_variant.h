@@ -20,7 +20,6 @@ typedef struct variant_info {
     std::string model;
     std::string build_fingerprint;
 
-    bool nfc;
 } variant_info_t;
 
 void search_variant(const std::vector<variant_info_t> variants);
