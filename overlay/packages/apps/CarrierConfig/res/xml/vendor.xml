@@ -2884,6 +2884,10 @@
     </carrier_config>
     <carrier_config mcc="602" mnc="01">
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="647" mnc="00">
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
@@ -6589,6 +6593,9 @@
         <boolean name="display_hd_plus_icon_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="wos_flight_mode_support_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="505" mnc="02">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
@@ -6609,16 +6616,28 @@
     <carrier_config mcc="602" mnc="01">
         <boolean name="config_restore_participants_presentation" value="true" />
         <boolean name="display_hd_plus_icon_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="602" mnc="03">
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="wos_flight_mode_support_bool" value="false" />
         <boolean name="mtk_wos_flight_mode_support_bool" value="false" />
         <boolean name="display_hd_plus_icon_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="602" mnc="04">
         <boolean name="display_hd_plus_icon_bool" value="true" />
         <boolean name="config_restore_participants_presentation" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="604" mnc="00">
         <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
