@@ -56,6 +56,9 @@ EOF
         vendor/etc/init/init_thermal-engine.rc)
             sed -i '/^#service/,/^$/ s/^#//' "${2}"
             ;;
+        vendor/lib/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
+            ;;		
     esac
 }
 
