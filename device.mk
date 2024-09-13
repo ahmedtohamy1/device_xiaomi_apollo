@@ -190,7 +190,8 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm@1.4.vendor \
+    libcrypto-v33
 
 # Dolby
 PRODUCT_COPY_FILES += \
