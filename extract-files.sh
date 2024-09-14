@@ -56,6 +56,10 @@ EOF
         vendor/etc/init/init_thermal-engine.rc)
             sed -i '/^#service/,/^$/ s/^#//' "${2}"
             ;;
+        vendor/etc/seccomp_policy/atfwd@2.0.policy)
+            [ "$2" = "" ] && return 0
+            echo 'gettid: 1' >> "${2}"
+            ;;
         vendor/lib/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;		
