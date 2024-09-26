@@ -160,13 +160,6 @@ on boot
     chmod 0664 /sys/class/drm/card0-DSI-1/disp_count
     chown system system /sys/class/drm/card0-DSI-1/disp_pcc
     chmod 0664 /sys/class/drm/card0-DSI-1/disp_pcc
-    #camera motor
-    chmod 0777 /sys/class/drv8846/ti-drv8846/debug
-    chown system system /sys/class/backlight/panel0-backlight/brightness_clone
-    chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
-    chown system system /sys/class/thermal/thermal_message/sconfig
-    chown system system /sys/class/thermal/thermal_message/balance_mode
-    chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
 
     write /sys/block/sda/queue/wbt_lat_usec 75000
 
@@ -184,9 +177,6 @@ on boot
     chmod 0664 /sys/module/migt/parameters/del_bclus_affinity_uidlist
     chown root system /sys/module/migt/parameters/reset_clus_affinity_uidlist
     chmod 0664 /sys/module/migt/parameters/reset_clus_affinity_uidlist
-
-on property:persist.vendor.sys.fp.fod.large_field=1
-    write sys/bus/i2c/devices/3-0049/fod_area 1
 
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
