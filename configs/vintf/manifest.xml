@@ -25,11 +25,6 @@
         <fqname>@1.0::IGatekeeper/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.ir</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IConsumerIr/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.keymaster</name>
         <transport>hwbinder</transport>
         <fqname>@4.0::IKeymasterDevice/default</fqname>
@@ -44,6 +39,10 @@
         <name>android.hardware.memtrack</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IMemtrack/default</fqname>
+    </hal>
+    <hal format="aidl" override="true">
+        <name>android.hardware.nfc</name>
+        <fqname>INfc/default</fqname>
     </hal>
     <hal format="aidl" override="true">
         <name>android.hardware.nfc</name>
@@ -64,6 +63,7 @@
     <hal format="hidl">
         <name>android.hardware.secure_element</name>
         <transport>hwbinder</transport>
+        <fqname>@1.2::ISecureElement/eSE1</fqname>
         <fqname>@1.2::ISecureElement/SIM1</fqname>
     </hal>
     <hal format="hidl">
@@ -98,11 +98,20 @@
     </hal>
     <hal format="aidl" override="true">
         <name>vendor.nxp.nxpnfc_aidl</name>
+        <fqname>INxpNfc/default</fqname>
+    </hal>
+    <hal format="aidl" override="true">
+        <name>vendor.nxp.nxpnfc_aidl</name>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <fqname>@2.3::IFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.esepowermanager</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IEsePowerManager/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.alarm</name>
