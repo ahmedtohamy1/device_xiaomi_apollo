@@ -57,6 +57,9 @@ TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
+# Dolby
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
