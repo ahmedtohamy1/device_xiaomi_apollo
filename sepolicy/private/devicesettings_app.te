@@ -1,6 +1,8 @@
 type devicesettings_app, domain;
 typeattribute devicesettings_app mlstrustedsubject;
 
+app_domain(devicesettings_app)
+
 # Access standard system services
 allow devicesettings_app activity_service:service_manager find;
 allow devicesettings_app activity_task_service:service_manager find;
