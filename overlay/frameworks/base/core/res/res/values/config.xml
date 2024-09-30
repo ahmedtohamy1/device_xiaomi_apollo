@@ -365,23 +365,6 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
-
-    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
-         Note: this value is temporary and is expected to be queried directly
-         from the HAL in the future. -->
-    <array name="config_sfps_sensor_props" translatable="false">
-        <item>@array/config_sfps_sensor_props_0</item>
-    </array>
-
-    <array name="config_sfps_sensor_props_0" translatable="false">
-        <item>local:4630946687422888065</item>
-        <item>1080</item>
-        <item>880</item>
-        <item>200</item>
-    </array>
-
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
@@ -639,14 +622,6 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
-
-    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
-         when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
-         where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
-         and Strength as defined in Authenticators.java -->
-    <string-array name="config_biometric_sensors" translatable="false" >
-        <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
-    </string-array>
 
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
     <integer-array name="config_availableColorModes">

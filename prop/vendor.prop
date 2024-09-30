@@ -202,6 +202,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Fingerprint
 persist.vendor.qfp=false
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1080|880|200|local:4630946687422888065
 
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
