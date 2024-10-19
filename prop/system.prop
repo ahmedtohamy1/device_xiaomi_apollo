@@ -26,6 +26,12 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
 
+# Volte
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Perf
 ro.vendor.qti.core_ctl_max_cpu=4
 ro.vendor.qti.core_ctl_min_cpu=2
